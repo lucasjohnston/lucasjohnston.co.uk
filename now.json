@@ -1,6 +1,9 @@
 {
   "name": "lucasjohnston",
-  "alias": "lucasco.de",
+  "alias": [
+    "lucasco.de",
+    "www.lucasco.de"
+  ],
   "env": {
     "NODE_ENV": "production"
   }
