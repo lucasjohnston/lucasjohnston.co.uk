@@ -1,75 +1,40 @@
 import React from 'react';
-import MediaQuery from 'react-responsive';
 import atkinsLogo from '../../assets/atkins.png';
 import imperialLogo from '../../assets/imperial.png';
 import blocksLogo from '../../assets/blocks.jpg';
 import googleLogo from '../../assets/google.jpg';
 import starlingLogo from '../../assets/starling.jpg';
 
-// TODO: Make this whole props thing a lot nicer. You can do better Lucas. (but also it's 2am so do better later not now)
-
-const Clients = (props) => (
-  props.desktop ?
-    <div>
-      <div className='dt dt--fixed mw6 mw7-l center'>
-        <div className='dtc pa2 pa3-l'>
-          <a href='https://www.starlingbank.com'>
-            <img alt='Starling Bank' className='br2 db w-100' src={starlingLogo}/>
-          </a>
-        </div>
-        <div className='dtc pa2 pa3-l'>
-          <a href='https://www.google.com'>
-            <img alt='Google' className='br2 db w-100' src={googleLogo}/>
-          </a>
-        </div>
+const Clients = () => (
+  <div>
+    <div className='flex flex-wrap items-center justify-center'>
+      <div className='dtc pa2 pa3-l'>
+        <a href='https://www.starlingbank.com'>
+          <img alt='Starling Bank' className='br2 db w4' src={starlingLogo}/>
+        </a>
       </div>
-      <div className='dt dt--fixed mw6 mw7-l center'>
-        <div className='dtc pa2 pa3-l'>
-          <a href='https://www.chooseblocks.com'>
-            <img alt='BLOCKS Wearables' className='br2 db w-100' src={blocksLogo}/>
-          </a>
-        </div>
-        <div className='dtc pa2 pa3-l'>
-          <a href='https://www.imperial.ac.uk'>
-            <img alt='Imperial College London' className='br2 db w-100' src={imperialLogo}/>
-          </a>
-        </div>
-        <div className='dtc pa2 pa3-l'>
-          <a href='https://www.atkinsglobal.com'>
-            <img alt='ATKINS Global' className='br2 db w-100' src={atkinsLogo}/>
-          </a>
-        </div>
+      <div className='dtc pa2 pa3-l'>
+        <a href='https://www.google.com'>
+          <img alt='Google' className='br2 db w4' src={googleLogo}/>
+        </a>
       </div>
-    </div> :
-    <div>
-      <div className='flex flex-wrap items-center justify-center'>
-        <div className='dtc pa2 pa3-l'>
-          <a href='https://www.starlingbank.com'>
-            <img alt='Starling Bank' className='br2 db w4' src={starlingLogo}/>
-          </a>
-        </div>
-        <div className='dtc pa2 pa3-l'>
-          <a href='https://www.google.com'>
-            <img alt='Google' className='br2 db w4' src={googleLogo}/>
-          </a>
-        </div>
-        <div className='dtc pa2 pa3-l'>
-          <a href='https://www.chooseblocks.com'>
-            <img alt='BLOCKS Wearables' className='br2 db w4' src={blocksLogo}/>
-          </a>
-        </div>
-        <div className='dtc pa2 pa3-l'>
-          <a href='https://www.imperial.ac.uk'>
-            <img alt='Imperial College London' className='br2 db w4' src={imperialLogo}/>
-          </a>
-        </div>
-        <div className='dtc pa2 pa3-l'>
-          <a href='https://www.atkinsglobal.com'>
-            <img alt='ATKINS Global' className='br2 db w4' src={atkinsLogo}/>
-          </a>
-        </div>
+      <div className='dtc pa2 pa3-l'>
+        <a href='https://www.chooseblocks.com'>
+          <img alt='BLOCKS Wearables' className='br2 db w4' src={blocksLogo}/>
+        </a>
+      </div>
+      <div className='dtc pa2 pa3-l'>
+        <a href='https://www.imperial.ac.uk'>
+          <img alt='Imperial College London' className='br2 db w4' src={imperialLogo}/>
+        </a>
+      </div>
+      <div className='dtc pa2 pa3-l'>
+        <a href='https://www.atkinsglobal.com'>
+          <img alt='ATKINS Global' className='br2 db w4' src={atkinsLogo}/>
+        </a>
       </div>
     </div>
+  </div>
 );
 
 export default () => (
@@ -77,12 +42,7 @@ export default () => (
     <div className='ph3 ph5-ns pt6 mb6'>
       <div className='mw9 center'>
         <h3 className='f6 fw6 mt0 mb4 tc ttu tracked'>Company Portfolio</h3>
-        <MediaQuery query='(max-width: 960px)'>
-          <Clients desktop/>
-        </MediaQuery>
-        <MediaQuery query='(min-width: 960px)'>
-          <Clients/>
-        </MediaQuery>
+        <Clients/>
       </div>
     </div>
   </section>
