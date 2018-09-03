@@ -1,0 +1,7 @@
+{
+  "name": "lucasjohnston",
+  "alias": "lucasco.de",
+  "env": {
+    "NODE_ENV": "production"
+  }
+}
