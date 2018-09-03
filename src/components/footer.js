@@ -7,9 +7,7 @@ export default () => (
         <p>
           <b>Get in touch!</b>
         </p>
-        <a href='/' className='dib f3 fw6 mt0 link dim' title='Home'>
-          <a href='mailto:lucas@lucasjohnston.co.uk' className='link dim black'>lucas@lucasjohnston.co.uk</a>
-        </a>
+        <a href='mailto:lucas@lucasjohnston.co.uk' className='link dim black dib f3 fw6 mt0'>lucas@lucasjohnston.co.uk</a>
       </div>
     </div>
   </footer>

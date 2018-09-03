@@ -1,5 +1,12 @@
 import React from 'react';
 import MediaQuery from 'react-responsive';
+import atkinsLogo from '../../assets/atkins.png';
+import imperialLogo from '../../assets/imperial.png';
+import blocksLogo from '../../assets/blocks.jpg';
+import googleLogo from '../../assets/google.jpg';
+import starlingLogo from '../../assets/starling.jpg';
+
+// TODO: Make this whole props thing a lot nicer. You can do better Lucas. (but also it's 2am so do better later not now)
 
 const Clients = (props) => (
   props.desktop ?
@@ -7,29 +14,29 @@ const Clients = (props) => (
       <div className='dt dt--fixed mw6 mw7-l center'>
         <div className='dtc pa2 pa3-l'>
           <a href='https://www.starlingbank.com'>
-            <img alt='Starling Bank' className='br2 db w-100' src='https://pbs.twimg.com/profile_images/1016625432391749632/QI0ODYP0.jpg'/>
+            <img alt='Starling Bank' className='br2 db w-100' src={starlingLogo}/>
           </a>
         </div>
         <div className='dtc pa2 pa3-l'>
           <a href='https://www.google.com'>
-            <img alt='Google' className='br2 db w-100' src='https://pbs.twimg.com/profile_images/972154872261853184/RnOg6UyU.jpg'/>
+            <img alt='Google' className='br2 db w-100' src={googleLogo}/>
           </a>
         </div>
       </div>
       <div className='dt dt--fixed mw6 mw7-l center'>
         <div className='dtc pa2 pa3-l'>
           <a href='https://www.chooseblocks.com'>
-            <img alt='BLOCKS Wearables' className='br2 db w-100' src='https://pbs.twimg.com/profile_images/884060252655804416/vzN-O0pK.jpg'/>
+            <img alt='BLOCKS Wearables' className='br2 db w-100' src={blocksLogo}/>
           </a>
         </div>
         <div className='dtc pa2 pa3-l'>
           <a href='https://www.imperial.ac.uk'>
-            <img alt='Imperial College London' className='br2 db w-100' src='https://pbs.twimg.com/profile_images/1016226074378887168/nQbLFtCO.jpg'/>
+            <img alt='Imperial College London' className='br2 db w-100' src={imperialLogo}/>
           </a>
         </div>
         <div className='dtc pa2 pa3-l'>
           <a href='https://www.atkinsglobal.com'>
-            <img alt='ATKINS Global' className='br2 db w-100' src='https://maas-scotland.com/wp-content/uploads/2017/10/atkins-square.png'/>
+            <img alt='ATKINS Global' className='br2 db w-100' src={atkinsLogo}/>
           </a>
         </div>
       </div>
@@ -38,27 +45,27 @@ const Clients = (props) => (
       <div className='flex flex-wrap items-center justify-center'>
         <div className='dtc pa2 pa3-l'>
           <a href='https://www.starlingbank.com'>
-            <img alt='Starling Bank' className='br2 db w4' src='https://pbs.twimg.com/profile_images/1016625432391749632/QI0ODYP0.jpg'/>
+            <img alt='Starling Bank' className='br2 db w4' src={starlingLogo}/>
           </a>
         </div>
         <div className='dtc pa2 pa3-l'>
           <a href='https://www.google.com'>
-            <img alt='Google' className='br2 db w4' src='https://pbs.twimg.com/profile_images/972154872261853184/RnOg6UyU.jpg'/>
+            <img alt='Google' className='br2 db w4' src={googleLogo}/>
           </a>
         </div>
         <div className='dtc pa2 pa3-l'>
           <a href='https://www.chooseblocks.com'>
-            <img alt='BLOCKS Wearables' className='br2 db w4' src='https://pbs.twimg.com/profile_images/884060252655804416/vzN-O0pK.jpg'/>
+            <img alt='BLOCKS Wearables' className='br2 db w4' src={blocksLogo}/>
           </a>
         </div>
         <div className='dtc pa2 pa3-l'>
           <a href='https://www.imperial.ac.uk'>
-            <img alt='Imperial College London' className='br2 db w4' src='https://pbs.twimg.com/profile_images/1016226074378887168/nQbLFtCO.jpg'/>
+            <img alt='Imperial College London' className='br2 db w4' src={imperialLogo}/>
           </a>
         </div>
         <div className='dtc pa2 pa3-l'>
           <a href='https://www.atkinsglobal.com'>
-            <img alt='ATKINS Global' className='br2 db w4' src='https://maas-scotland.com/wp-content/uploads/2017/10/atkins-square.png'/>
+            <img alt='ATKINS Global' className='br2 db w4' src={atkinsLogo}/>
           </a>
         </div>
       </div>
