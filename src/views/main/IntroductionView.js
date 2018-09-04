@@ -13,8 +13,10 @@ export default () => (
             <p className='f4 f4-ns fw6 b measure dib-m lh-copy'>
               Great to meet you <Emoji symbol='🌈'/><br/>
               My name's Lucas Johnston.<br/>
-              I’m a 17 year old Software Engineer & Product Manager from London,<br/>
+              I’m a Software Engineer & Product Manager from London,<br/>
               currently working for <a style={{textDecoration: 'underline'}} className='black dim' href='https://www.starlingbank.com'>Starling Bank</a>.<br/>
+              I'm also 17.<br />
+              Yup.<br />
             </p>
           </div>
         </div>
