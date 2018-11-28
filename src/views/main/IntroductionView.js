@@ -14,8 +14,8 @@ export default () => (
               Great to meet you <Emoji symbol='🌈'/><br/>
               My name's Lucas Johnston.<br/>
               I’m a Software Engineer & Product Manager from London,<br/>
-              currently working for <a style={{textDecoration: 'underline'}} className='black dim' href='https://www.starlingbank.com'>Starling Bank</a>.<br/>
-              I'm also 17.<br/>
+              currently working for <a style={{textDecoration: 'underline'}} className='black dim' href='https://www.monzo.com'>Monzo</a>.<br/>
+              I'm also 18.<br/>
               Yup.<br/>
             </p>
           </div>
