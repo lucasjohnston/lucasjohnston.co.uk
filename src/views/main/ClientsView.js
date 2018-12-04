@@ -4,7 +4,7 @@ import imperialLogo from '../../assets/imperial.png';
 import blocksLogo from '../../assets/blocks.jpg';
 import googleLogo from '../../assets/google.jpg';
 import starlingLogo from '../../assets/starling.jpg';
-import monzoLogo from '../../assets/monzo.png';
+import monzoLogo from '../../assets/monzo.jpg';
 
 const Clients = () => (
   <div>
