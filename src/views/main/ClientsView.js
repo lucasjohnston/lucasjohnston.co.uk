@@ -4,10 +4,16 @@ import imperialLogo from '../../assets/imperial.png';
 import blocksLogo from '../../assets/blocks.jpg';
 import googleLogo from '../../assets/google.jpg';
 import starlingLogo from '../../assets/starling.jpg';
+import monzoLogo from '../../assets/monzo.jpg';
 
 const Clients = () => (
   <div>
     <div className='flex flex-wrap items-center justify-center'>
+      <div className='dtc pa2 pa3-l'>
+        <a href='https://www.monzo.com'>
+          <img alt='Monzo' className='br2 db w4' src={monzoLogo}/>
+        </a>
+      </div>
       <div className='dtc pa2 pa3-l'>
         <a href='https://www.starlingbank.com'>
           <img alt='Starling Bank' className='br2 db w4' src={starlingLogo}/>
