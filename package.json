@@ -1,25 +1,49 @@
 {
-  "name": "lucasjohnston",
-  "version": "0.1.0",
-  "private": true,
+  "name": "gatsby-template",
+  "private": false,
+  "version": "1.0.0",
+  "description": "My template for gatsby projects",
+  "author": "Lucas Johnston <developing@lucasco.de>",
   "dependencies": {
-    "@fortawesome/fontawesome-svg-core": "^1.2.4",
-    "@fortawesome/free-brands-svg-icons": "^5.3.1",
-    "@fortawesome/free-solid-svg-icons": "^5.3.1",
-    "@fortawesome/react-fontawesome": "^0.1.2",
-    "react": "^16.4.2",
-    "react-dom": "^16.4.2",
-    "react-responsive": "^5.0.0",
-    "react-scripts": "1.1.5",
-    "tachyons": "^4.11.1",
-    "tachyons-cli": "^1.3.2"
+    "eslint": "^5.16.0",
+    "eslint-plugin-flowtype-errors": "^4.1.0",
+    "eslint-plugin-prettier": "^3.0.1",
+    "flow-bin": "^0.98.0",
+    "gatsby": "^2.4.2",
+    "gatsby-image": "^2.0.41",
+    "gatsby-plugin-eslint": "^2.0.5",
+    "gatsby-plugin-flow": "^1.0.5",
+    "gatsby-plugin-manifest": "^2.1.1",
+    "gatsby-plugin-nprogress": "^2.0.10",
+    "gatsby-plugin-offline": "^2.1.0",
+    "gatsby-plugin-react-helmet": "^3.0.12",
+    "gatsby-plugin-sharp": "^2.0.36",
+    "gatsby-plugin-styled-components": "^3.0.7",
+    "gatsby-source-filesystem": "^2.0.33",
+    "gatsby-transformer-sharp": "^2.1.19",
+    "prop-types": "^15.7.2",
+    "react": "^16.8.6",
+    "react-dom": "^16.8.6",
+    "react-ga": "^2.5.7",
+    "react-helmet": "^5.2.1",
+    "styled-components": "^4.2.0"
   },
+  "devDependencies": {
+    "prettier": "^1.17.0"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "Apache-2.0",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test --env=jsdom",
-    "eject": "react-scripts eject",
-    "css": "tachyons src/css/app.css > src/index.css --minify",
-    "prebuild": "npm run css"
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasjohnston/lucasjohnston"
   }
 }
