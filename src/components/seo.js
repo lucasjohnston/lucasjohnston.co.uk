@@ -33,6 +33,30 @@ function SEO({ description, lang, meta, keywords, title }: Props) {
   )
 
   const metaDescription = description || site.siteMetadata.description
+  const defaultKeywords = [
+    'lucas',
+    'johnston',
+    'lucas johnston',
+    'monzo',
+    'monzo bank',
+    'google',
+    'imperial',
+    'imperial college',
+    'starling',
+    'starling bank',
+    'software engineer',
+    'product manager',
+    'youngest engineer',
+    'youngest software engineer',
+    '17 years old',
+    '18 years old',
+    '17 year old',
+    '18 year old',
+    'programmer',
+    'young programmer',
+    'youngest programmer',
+  ]
+  keywords = keywords.concat(defaultKeywords)
 
   return (
     <Helmet
@@ -64,7 +88,7 @@ function SEO({ description, lang, meta, keywords, title }: Props) {
         },
         {
           name: `twitter:creator`,
-          content: site.siteMetadata.author,
+          content: '@' + site.siteMetadata.author,
         },
         {
           name: `twitter:title`,

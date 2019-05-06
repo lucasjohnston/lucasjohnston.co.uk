@@ -1,9 +1,21 @@
 {
-  "name": "gatsby-template",
+  "name": "lucasjohnston",
   "private": false,
   "version": "1.0.0",
-  "description": "My template for gatsby projects",
+  "description": "lucas johnston is an 18 year old software engineer and product manager from london",
   "author": "Lucas Johnston <developing@lucasco.de>",
+  "license": "Apache-2.0",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/lucasjohnston/lucasjohnston"
+  },
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write src/**/*.{js,jsx}",
+    "start": "npm run develop",
+    "serve": "gatsby serve"
+  },
   "dependencies": {
     "eslint": "^5.16.0",
     "eslint-plugin-flowtype-errors": "^4.1.0",
@@ -30,20 +42,5 @@
   },
   "devDependencies": {
     "prettier": "^1.17.0"
-  },
-  "keywords": [
-    "gatsby"
-  ],
-  "license": "Apache-2.0",
-  "scripts": {
-    "build": "gatsby build",
-    "develop": "gatsby develop",
-    "format": "prettier --write src/**/*.{js,jsx}",
-    "start": "npm run develop",
-    "serve": "gatsby serve"
-  },
-  "repository": {
-    "type": "git",
-    "url": "https://github.com/lucasjohnston/lucasjohnston"
   }
 }
