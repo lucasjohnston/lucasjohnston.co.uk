@@ -1,0 +1,25 @@
+* {
+    box-sizing: inherit;
+}
+*:before {
+    box-sizing: inherit;
+}
+*:after {
+    box-sizing: inherit;
+}
+html {
+    -ms-text-size-adjust: 100%;
+    -webkit-text-size-adjust: 100%;
+    font: 112.5%/1.45em Helvetica, sans-serif;
+    box-sizing: border-box;
+    overflow-y: scroll;
+}
+body {
+    margin: 0;
+    font-family: -apple-system, BlinkMacSystemFont, 'avenir next', avenir, helvetica, 'helvetica neue', ubuntu, roboto, noto, 'segoe ui', arial, sans-serif;
+}
+@media only screen and (max-width: 480px) {
+    html {
+        font-size: 100%;
+    }
+}

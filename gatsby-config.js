@@ -10,6 +10,14 @@ module.exports = {
     'gatsby-plugin-eslint',
     `gatsby-plugin-react-helmet`,
     {
+      resolve: `gatsby-plugin-gtag`,
+      options: {
+        trackingId: "UA-137041787-2",
+        head: false,
+        anonymize: true,
+      },
+    },
+    {
       resolve: `gatsby-source-filesystem`,
       options: {
         name: `images`,

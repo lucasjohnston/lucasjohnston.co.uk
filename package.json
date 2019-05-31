@@ -25,6 +25,7 @@
     "gatsby-image": "^2.0.41",
     "gatsby-plugin-eslint": "^2.0.5",
     "gatsby-plugin-flow": "^1.0.5",
+    "gatsby-plugin-gtag": "^1.0.10",
     "gatsby-plugin-manifest": "^2.1.1",
     "gatsby-plugin-nprogress": "^2.0.10",
     "gatsby-plugin-offline": "^2.1.0",
@@ -38,6 +39,8 @@
     "react-dom": "^16.8.6",
     "react-ga": "^2.5.7",
     "react-helmet": "^5.2.1",
+    "react-redux": "^7.0.3",
+    "redux": "^4.0.1",
     "styled-components": "^4.2.0"
   },
   "devDependencies": {

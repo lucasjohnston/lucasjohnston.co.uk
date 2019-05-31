@@ -1,13 +1,14 @@
+// @flow
+import * as React from 'react'
+import Helmet from 'react-helmet'
+import { useStaticQuery, graphql } from 'gatsby'
+
 /**
  * SEO component that queries for data with
  *  Gatsby's useStaticQuery React hook
  *
  * See: https://www.gatsbyjs.org/docs/use-static-query/
  */
-
-import React from 'react'
-import Helmet from 'react-helmet'
-import { useStaticQuery, graphql } from 'gatsby'
 
 type Props = {
   description: string,
@@ -56,7 +57,7 @@ function SEO({ description, lang, meta, keywords, title }: Props) {
     'young programmer',
     'youngest programmer',
   ]
-  keywords = keywords.concat(defaultKeywords)
+  const combinedKeywords = keywords.concat(defaultKeywords)
 
   return (
     <Helmet
@@ -100,10 +101,10 @@ function SEO({ description, lang, meta, keywords, title }: Props) {
         },
       ]
         .concat(
-          keywords.length > 0
+          combinedKeywords.length > 0
             ? {
                 name: `keywords`,
-                content: keywords.join(`, `),
+                content: combinedKeywords.join(`, `),
               }
             : [],
         )

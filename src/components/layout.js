@@ -1,11 +1,15 @@
-import React from 'react'
+// @flow
+import * as React from 'react'
 import { StaticQuery, graphql } from 'gatsby'
-
+import { Body } from './layout.style'
 import Header from './header'
-import './layout.css'
+import ThemeProvider from './themeContext'
 
 type Props = {
-  children: React.Node,
+  children?: React.Node,
+}
+
+type GQLProps = {
   site: {
     siteMetadata: {
       title: string,
@@ -13,38 +17,37 @@ type Props = {
   },
 }
 
-const Layout = ({ children }) => (
-  <StaticQuery
-    query={graphql`
-      query SiteTitleQuery {
-        site {
-          siteMetadata {
-            title
+class Layout extends React.Component<Props> {
+  render() {
+    const { children } = this.props
+
+    return (
+      <StaticQuery
+        query={graphql`
+          query SiteTitleQuery {
+            site {
+              siteMetadata {
+                title
+              }
+            }
           }
-        }
-      }
-    `}
-    render={(data: Props) => (
-      <>
-        <Header siteTitle={data.site.siteMetadata.title} />
-        <div
-          style={{
-            margin: `0 auto`,
-            maxWidth: 960,
-            padding: `0px 1.0875rem 1.45rem`,
-            paddingTop: 0,
-          }}
-        >
-          <main>{children}</main>
-          <footer>
-            © {new Date().getFullYear()}, Built with
-            {` `}
-            <a href="https://www.gatsbyjs.org">Gatsby</a>
-          </footer>
-        </div>
-      </>
-    )}
-  />
-)
+        `}
+        render={(data: GQLProps) => (
+          <ThemeProvider>
+            <Header siteTitle={data.site.siteMetadata.title} />
+            <Body>
+              <main>{children}</main>
+              <footer>
+                © {new Date().getFullYear()}, Built with
+                {` `}
+                <a href="https://www.gatsbyjs.org">Gatsby</a>
+              </footer>
+            </Body>
+          </ThemeProvider>
+        )}
+      />
+    )
+  }
+}
 
 export default Layout
