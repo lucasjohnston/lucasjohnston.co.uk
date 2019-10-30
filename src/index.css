@@ -1,4 +1,4 @@
-html, body, #root {
+html, body, #___gatsby, #gatsby-focus-wrapper {
   height: 100%;
   width: 100%;
 }
@@ -6,16 +6,17 @@ html, body, #root {
 body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, 'Avenir Next', 'Avenir', 'Segoe UI',
-    'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Noto',
-    'Open Sans', 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
+  'Roboto', 'Oxygen', 'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Noto',
+  'Open Sans', 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   background-color: #FFCA3A;
   color: #000000;
+  overflow: hidden;
 }
 
 code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New",
-    monospace;
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+  monospace;
   color: #91A798;
 }
