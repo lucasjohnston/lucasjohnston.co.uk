@@ -15,7 +15,6 @@ import '../index.css'
 
 class Index extends React.Component {
   animateLayout = async () => {
-    document.querySelector("#links").style.display = 'none';
     await anime({targets: '#links', opacity: 0, duration: 0}).finished
     await scaleLetters(false, false)
     scaleLetters(true, false)

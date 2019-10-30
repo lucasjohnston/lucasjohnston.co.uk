@@ -28,6 +28,7 @@ export const Links = styled.p`
   margin-top: 2em;
   line-height: 1.5em;
   text-align: center;
+  display: none;
 `
 
 export const Link = styled.a`
