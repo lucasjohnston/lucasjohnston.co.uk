@@ -51,7 +51,7 @@ class Index extends React.Component {
   render() {
     return(
       <>
-        <h1 style={{color: '#FFCA3A', position: 'absolute', top: 0, left: 0, padding: 0, height: '10px !important', marginTop: '-10px !important'}}>lucas johnston</h1>
+        <h1 style={{color: '#FFCA3A', position: 'absolute', top: 0, left: 0, zIndex: '-1', padding: 0, height: '10px !important', marginTop: '-10px !important'}}>lucas johnston</h1>
         <Container className='container'>
           <TitleContainer id="title">
             <LucasContainer>
