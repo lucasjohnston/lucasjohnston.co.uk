@@ -66,11 +66,11 @@ class Index extends React.Component {
           <Links id='links'>
             <Link href='https://www.twitter.com/lucasjohnston'>→ follow me on twitter</Link>
             <br />
-            <Link href='https://www.twitter.com/umbermoney'>→ follow umber on twitter</Link>
+            <Link href='https://www.twitter.com/umber'>→ follow umber on twitter</Link>
             <br />
-            <Link href='https://www.umber.xyz'>→ visit the umber site</Link>
+            <Link href='https://www.umber.co'>→ visit the umber site</Link>
             <br />
-            <Link href='mailto:lucas@umber.xyz'>→ ping me an email</Link>
+            <Link href='mailto:lucas@umber.co'>→ ping me an email</Link>
           </Links>
         </Container>
       </>
