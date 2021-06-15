@@ -10,13 +10,13 @@ body {
   'Open Sans', 'Helvetica', 'Helvetica Neue', 'Arial', sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background-color: #FFCA3A;
-  color: #000000;
+  background-color: #FBF8F3;
+  color: #252524;
   overflow: hidden;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
   monospace;
-  color: #91A798;
+  color: #252524;
 }
