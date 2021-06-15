@@ -51,7 +51,7 @@ class Index extends React.Component {
   render() {
     return(
       <>
-        <h1 style={{color: '#FFCA3A', position: 'absolute', top: 0, left: 0, zIndex: '-1', padding: 0, height: '10px !important', marginTop: '-10px !important'}}>lucas johnston</h1>
+        <h1 style={{color: '#FBF8F3', position: 'absolute', top: 0, left: 0, zIndex: '-1', padding: 0, height: '10px !important', marginTop: '-10px !important'}}>lucas johnston</h1>
         <Container className='container'>
           <TitleContainer id="title">
             <LucasContainer>
@@ -64,13 +64,11 @@ class Index extends React.Component {
             <Johnston className='johnston'/>
           </TitleContainer>
           <Links id='links'>
-            <Link href='https://www.twitter.com/lucasjohnston'>→ follow me on twitter</Link>
+            <Link href='https://portfolio.lucasjohnston.co.uk'>view my portfolio →</Link>
             <br />
-            <Link href='https://www.twitter.com/umber'>→ follow umber on twitter</Link>
+            <Link href='https://www.umber.co'>visit the umber site →</Link>
             <br />
-            <Link href='https://www.umber.co'>→ visit the umber site</Link>
-            <br />
-            <Link href='mailto:lucas@umber.co'>→ ping me an email</Link>
+            <Link href='https://www.twitter.com/lucasjohnston'>view my twitter→</Link>
           </Links>
         </Container>
       </>
