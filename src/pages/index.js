@@ -4,7 +4,7 @@ import AnimatedLetter from "../components/svg"
 import Johnston from "../images/johnston.svg"
 import {
   Container,
-  Link,
+  LoadingCopy,
   Links,
   LucasContainer,
   randomiseDivs,
