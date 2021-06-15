@@ -38,6 +38,7 @@ export const LoadingCopy = styled.p`
   font-size: 1.4em;
   font-weight: 600;
   color: grey;
+  display: none;
 `
 
 export const Link = styled.a`

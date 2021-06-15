@@ -36,6 +36,7 @@ class Index extends React.Component {
       marginTop: 0,
       duration: 0,
     })
+    document.querySelector("#loading-copy").style.display = "block"
     await anime({
       targets: "#links",
       opacity: [0, 100],
@@ -81,7 +82,7 @@ class Index extends React.Component {
             <Johnston className="johnston" />
           </TitleContainer>
           <Links id="links">
-            <LoadingCopy>loading...</LoadingCopy>
+            <LoadingCopy id="loading-copy">loading...</LoadingCopy>
           </Links>
         </Container>
       </>
