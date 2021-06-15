@@ -24,7 +24,7 @@ export const LucasContainer = styled.div`
 `
 
 export const Links = styled.p`
-  height: 7em !important;
+  height: 3em !important;
   margin-top: 2em;
   line-height: 1.5em;
   text-align: center;
@@ -34,6 +34,10 @@ export const Links = styled.p`
 export const LoadingCopy = styled.p`
   font-family: Big Caslon, Goudy Old Style, Palatino, Palatino Linotype,
     Palatino LT STD, Book Antiqua, Georgia, serif;
+  letter-spacing: 0.07em;
+  font-size: 1.4em;
+  font-weight: 600;
+  color: grey;
 `
 
 export const Link = styled.a`
@@ -77,10 +81,10 @@ export const randomiseDivs = async (delay, reset) => {
       return reset === true ? 0 : anime.random(-360, 360)
     },
     duration: function() {
-      return anime.random(700, 1100)
+      return anime.random(700, 900)
     },
     easing: "easeInOutQuart",
-    delay: `${delay != null && delay === true ? 400 : 0}`,
+    delay: `${delay != null && delay === true ? 300 : 0}`,
   }).finished
 }
 
@@ -100,9 +104,9 @@ export const scaleLetters = async (delay, reset) => {
       return reset === true ? 0 : anime.random(-360, 360)
     },
     duration: function() {
-      return anime.random(700, 1100)
+      return anime.random(700, 900)
     },
     easing: "easeInOutQuart",
-    delay: `${delay != null && delay === true ? 400 : 0}`,
+    delay: `${delay != null && delay === true ? 300 : 0}`,
   }).finished
 }
