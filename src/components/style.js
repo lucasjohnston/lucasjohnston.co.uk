@@ -77,10 +77,10 @@ export const randomiseDivs = async (delay, reset) => {
       return reset === true ? 0 : anime.random(-360, 360)
     },
     duration: function() {
-      return anime.random(400, 600)
+      return anime.random(700, 1100)
     },
     easing: "easeInOutQuart",
-    delay: `${delay != null && delay === true ? 200 : 0}`,
+    delay: `${delay != null && delay === true ? 400 : 0}`,
   }).finished
 }
 
@@ -100,9 +100,9 @@ export const scaleLetters = async (delay, reset) => {
       return reset === true ? 0 : anime.random(-360, 360)
     },
     duration: function() {
-      return anime.random(400, 600)
+      return anime.random(700, 1100)
     },
     easing: "easeInOutQuart",
-    delay: `${delay != null && delay === true ? 200 : 0}`,
+    delay: `${delay != null && delay === true ? 400 : 0}`,
   }).finished
 }
