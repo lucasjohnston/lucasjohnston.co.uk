@@ -39,6 +39,8 @@ export const LoadingCopy = styled.p`
   font-weight: 600;
   color: grey;
   display: none;
+  opacity: 0;
+  visibility: hidden;
 `
 
 export const Link = styled.a`

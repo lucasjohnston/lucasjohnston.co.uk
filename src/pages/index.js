@@ -37,6 +37,8 @@ class Index extends React.Component {
       duration: 0,
     })
     document.querySelector("#loading-copy").style.display = "block"
+    document.querySelector("#loading-copy").style.visibility = "visible"
+    document.querySelector("#loading-copy").style.opacity = 100
     await anime({
       targets: "#links",
       opacity: [0, 100],
