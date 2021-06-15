@@ -27,7 +27,7 @@ class Index extends React.Component {
     await anime({
       targets: "#title",
       marginTop: [0, "-10em"],
-      duration: 800,
+      duration: 400,
       easing: "easeInOutQuart",
     }).finished
     document.querySelector("#links").style.display = "block"
@@ -40,11 +40,11 @@ class Index extends React.Component {
       targets: "#links",
       opacity: [0, 100],
       duration: function() {
-        return anime.random(800, 1200)
+        return anime.random(400, 600)
       },
       easing: "easeInOutQuart",
     }).finished
-    await new Promise(resolve => setTimeout(resolve, 500))
+    await new Promise(resolve => setTimeout(resolve, 400))
     window.location.href = "https://portfolio.lucasjohnston.co.uk"
   }
 
@@ -81,7 +81,7 @@ class Index extends React.Component {
             <Johnston className="johnston" />
           </TitleContainer>
           <Links id="links">
-            <p>Loading...</p>
+            <LoadingCopy>loading...</LoadingCopy>
           </Links>
         </Container>
       </>
