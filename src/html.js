@@ -7,13 +7,10 @@ export default function HTML(props) {
       <head>
         <meta charSet="utf-8" />
         <meta name="robots" content="index, follow" />
-        <meta
-          name="description"
-          content="lucas johnston is the 19 year old founder of umber."
-        />
+        <meta name="description" content="lucas johnston's personal site" />
         <meta
           name="keywords"
-          content="lucas, johnston, lucas johnston, umber, umber bank, umber money, teen bank, teen money app, gen-z app, gen-z bank, gen-z fintech, teen fintech, young person, young persons bank, young persons banking, young persons accounts, young person account, under 18 account, under 18 bank account, monzo, monzo bank, google, imperial, imperial college, starling, starling bank, software engineer, product manager, youngest engineer, youngest software engineer, 17 years old, 18 years old, 17 year old, 18 year old, programmer, young programmer, youngest programmer"
+          content="lucas, johnston, lucas johnston, umber, umber bank, umber money, teen bank, teen money app, gen-z app, gen-z bank, gen-z fintech, teen fintech, young person, young persons bank, young persons banking, young persons accounts, young person account, under 18 account, under 18 bank account, monzo, monzo bank, google, imperial, imperial college, starling, starling bank, software engineer, product manager, youngest engineer, youngest software engineer, 17 years old, 18 years old, 19 years old, 20 years old, 21 years old, 22 years old, 23 years old, 17 year old, 18 year old, programmer, young programmer, youngest programmer"
         />
         <link rel="shortcut icon" href="/favicon.ico" />
         <meta name="theme-color" content="#91A798" />
@@ -29,13 +26,13 @@ export default function HTML(props) {
         <meta name="twitter:title" content="lucas johnston" />
         <meta
           name="twitter:description"
-          content="lucas johnston is the 19 year old founder of umber."
+          content="lucas johnston's personal site"
         />
         <meta property="og:url" content="https://www.lucasjohnston.co.uk" />
         <meta property="og:title" content="lucas johnston" />
         <meta
           property="og:description"
-          content="lucas johnston is the 19 year old founder of umber."
+          content="lucas johnston's personal site"
         />
         <meta
           property="og:image"
@@ -72,7 +69,7 @@ export default function HTML(props) {
       <body {...props.bodyAttributes}>
         {props.preBodyComponents}
         <noscript key="noscript" id="gatsby-noscript">
-          hey! i'm @lucasjohnston.
+          hey! i'm @lujstn.
           <br />
           good news: there's a fancy animation here!
           <br />
@@ -81,13 +78,13 @@ export default function HTML(props) {
           <br />
           <br />
           considering javascript is on virtually every device nowadays, you've
-          probs specifically disabled it for 'security' or smth
+          probs specifically disabled it for security. either that or you're
+          using a super old web browser.
           <br />
-          either that or you're using a super old web browser. either way, we
-          both know you're not enabling javascript for the sake of a pretty
-          animation
+          either way, we both know you're probably not going to enable
+          javascript for the sake of a pretty animation haha
           <br />
-          feel free to follow me on twitter from your cli, and enjoy your
+          feel free to follow me on threads from your cli, and enjoy your
           non-javascript internet adventures!
         </noscript>
         <div

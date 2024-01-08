@@ -5,23 +5,24 @@
   "description": "my personal site!",
   "author": "lucas johnston <lucas@lucasjohnston.co.uk>",
   "dependencies": {
-    "animejs": "^3.1.0",
-    "babel-plugin-styled-components": "^1.10.6",
-    "gatsby": "^2.17.6",
+    "animejs": "^3.2.2",
+    "babel-plugin-styled-components": "^2.1.4",
+    "gatsby": "^5.13.1",
     "gatsby-image": "^2.2.30",
-    "gatsby-plugin-offline": "^3.0.17",
-    "gatsby-plugin-react-svg": "^2.1.2",
-    "gatsby-plugin-sharp": "^2.2.34",
-    "gatsby-plugin-styled-components": "^3.1.11",
-    "gatsby-source-filesystem": "^2.1.35",
-    "gatsby-transformer-sharp": "^2.3.1",
-    "prop-types": "^15.7.2",
-    "react": "^16.11.0",
-    "react-dom": "^16.11.0",
-    "styled-components": "^4.4.0"
+    "gatsby-plugin-google-gtag": "^5.13.0",
+    "gatsby-plugin-offline": "^6.13.0",
+    "gatsby-plugin-react-svg": "^3.3.0",
+    "gatsby-plugin-sharp": "^5.13.0",
+    "gatsby-plugin-styled-components": "^6.13.0",
+    "gatsby-source-filesystem": "^5.13.0",
+    "gatsby-transformer-sharp": "^5.13.0",
+    "prop-types": "^15.8.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "styled-components": "^6.1.7"
   },
   "devDependencies": {
-    "prettier": "^1.18.2"
+    "prettier": "^3.1.1"
   },
   "keywords": [
     "gatsby"
